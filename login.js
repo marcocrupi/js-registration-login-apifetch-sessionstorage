@@ -1,4 +1,3 @@
-// LOGIN
 const formLogin = {
   email: document.getElementById("emailLogin"),
   password: document.getElementById("passwordLogin"),
