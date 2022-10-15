@@ -23,7 +23,7 @@ let loginButton = formLogin.submit.addEventListener("click", (e) => {
       console.log(response.ok);
       console.log(response.status);
       if (response.status === 400) {
-        alert("Error Password or Username");
+        throw Error("Error Password or Username");
       }
       return response.json();
     })
