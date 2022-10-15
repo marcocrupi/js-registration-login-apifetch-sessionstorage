@@ -1,11 +1,9 @@
-// REGISTRATION
 const registrationForm = {
   email: document.getElementById("emailRegistration"),
   password: document.getElementById("passwordRegistration"),
   name: document.getElementById("nameRegistration"),
   age: document.getElementById("ageRegistration"),
   submit: document.getElementById("submitRegistration"),
-  // messages: document.getElementById("registrationForm-messages"),
 };
 let registrationButton = registrationForm.submit.addEventListener(
   "click",
