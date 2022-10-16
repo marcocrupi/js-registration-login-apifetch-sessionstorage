@@ -42,6 +42,10 @@ let registrationButton = registrationForm.submit.addEventListener(
             "index.html"
           ); /*opens the target page while Id & password matches*/
         }
+      })
+      .catch((err) => {
+        alert("Error");
+        console.log(err);
       });
   }
 );
